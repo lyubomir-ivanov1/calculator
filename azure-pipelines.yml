@@ -8,6 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  demands: Limit -equels DisAbleParallel
 
 steps:
 - task: NodeTool@0
